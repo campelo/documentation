@@ -4,6 +4,7 @@ Using a text column, expand column validation and add this formula:
 ```
 =OR(IsEmpty(ColumnName),IsNumber(ColumnName + 0))
 ```
+
 ![alt text][img1]
 
 Sources:
