@@ -32,7 +32,7 @@ Sources:
 
 [Github column samples](https://github.com/pnp/sp-dev-list-formatting/tree/master/column-samples)
 
-[img1]: https://github.com/campelo/documentation-dev.to/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img1.png "Image 1" 
-[img2]: https://github.com/campelo/documentation-dev.to/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img2.png "Image 2" 
-[img3]: https://github.com/campelo/documentation-dev.to/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img3.png "Image 3" 
-[img4]: https://github.com/campelo/documentation-dev.to/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img4.png "Image 4" 
+[img1]: https://github.com/campelo/documentation/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img1.png "Image 1" 
+[img2]: https://github.com/campelo/documentation/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img2.png "Image 2" 
+[img3]: https://github.com/campelo/documentation/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img3.png "Image 3" 
+[img4]: https://github.com/campelo/documentation/blob/master/sharepoint/how-to-remove-thousands-separator-of-a-number-column/assets/img4.png "Image 4" 

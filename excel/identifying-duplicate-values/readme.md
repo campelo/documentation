@@ -20,7 +20,7 @@ Sources:
 
 [Duplicate values](https://www.accountingweb.com/technology/excel/identifying-duplicate-values-in-an-excel-list)
 
-[img1]: https://github.com/campelo/documentation-dev.to/blob/master/excel/identifying-duplicate-values/assets/img1.png "Image 1" 
-[img2]: https://github.com/campelo/documentation-dev.to/blob/master/excel/identifying-duplicate-values/assets/img2.png "Image 2" 
-[img3]: https://github.com/campelo/documentation-dev.to/blob/master/excel/identifying-duplicate-values/assets/img3.png "Image 3" 
-[img4]: https://github.com/campelo/documentation-dev.to/blob/master/excel/identifying-duplicate-values/assets/img4.png "Image 4" 
+[img1]: https://github.com/campelo/documentation/blob/master/excel/identifying-duplicate-values/assets/img1.png "Image 1" 
+[img2]: https://github.com/campelo/documentation/blob/master/excel/identifying-duplicate-values/assets/img2.png "Image 2" 
+[img3]: https://github.com/campelo/documentation/blob/master/excel/identifying-duplicate-values/assets/img3.png "Image 3" 
+[img4]: https://github.com/campelo/documentation/blob/master/excel/identifying-duplicate-values/assets/img4.png "Image 4" 
