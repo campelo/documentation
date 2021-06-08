@@ -1,8 +1,8 @@
 # How to get year from date column
 
-Using a calculated column, add the value:
+Using a calculated field, add the value like that:
 ```
-=Text([DateColumn],"yyyy")
+=Text([Date column name],"yyyy")
 ```
 
 ![alt text][img1]
