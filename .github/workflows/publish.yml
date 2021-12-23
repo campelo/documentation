@@ -39,3 +39,6 @@ jobs:
         # (Optional) Use conventional commit messages. Default is false.
         # See https://www.conventionalcommits.org. 
         conventional_commits: true
+      env:
+        GIT_COMMITTER_NAME: Flavio Campelo
+        GIT_COMMITTER_EMAIL: flaviocampelo@hotmail.com
