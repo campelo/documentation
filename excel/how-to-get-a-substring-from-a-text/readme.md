@@ -1,11 +1,12 @@
 --------
 published: false
 title: "How to get a substring from a text"
-cover_image: "https://raw.githubusercontent.com/maxime1992/my-dev.to/master/blog-posts/manage-dev-to-blog-posts-with-continuous-deployment/assets/github-travis-dev-to.png"
+cover_image: "./assets/cover.jpg"
 description: "A easy way to keep your posts updated"
 tags: excel, substring
 series:
 canonical_url:
+id: 935082
 --------
 
 # How to get a substring from a text
