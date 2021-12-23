@@ -1,14 +1,12 @@
 ---
-title: New sample
-published: false
-description: A new simple test article
-tags: 'productivity, beginners, test'
+title: "Excel - How to get a substring from a text"
+published: true
+description: Getting a substring from a cell in excel
+tags: 'excel, substring'
 cover_image: ./assets/img2.png
 canonical_url: null
 id: 935082
 ---
-
-# How to get a substring from a text
 
 ## Text on right
 Find the char that you are looking for ("," on this sample)
@@ -48,8 +46,8 @@ Sources:
 
 [Getting the last position of a character using excel formula](https://trumpexcel.com/find-characters-last-position/)
 
-[img1]: https://github.com/campelo/documentation/blob/master/excel/how-to-get-a-substring-from-a-text/assets/img1.png "Image 1" 
+[img1]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img1.png "Image 1" 
 
-[img2]: https://github.com/campelo/documentation/blob/master/excel/how-to-get-a-substring-from-a-text/assets/img2.png "Image 2" 
+[img2]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img2.png "Image 2" 
 
-[img3]: https://github.com/campelo/documentation/blob/master/excel/how-to-get-a-substring-from-a-text/assets/img3.png "Image 3" 
+[img3]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img3.png "Image 3" 
