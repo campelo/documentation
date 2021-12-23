@@ -25,7 +25,7 @@ Use <strong>trim</strong> function to remove unwanted spaces
 =TRIM(RIGHT(F2,LEN(F2)-FIND(",",F2)))
 ```
 
-![alt text][img3]
+![alt text](./assets/img3.png)
 
 ## Text on the middle
 
@@ -33,22 +33,16 @@ First we will eliminate all right side from searched text.
 ```
 =FIND(G2,FIND(",",G2)-1)
 ```
-![alt text][img1]
+![alt text](./assets/img1.png)
 
 Then we will eliminate all left side from searched text.
 ```
 =RIGHT(F2,LEN(F2)-FIND("@",SUBSTITUTE(F2,"/","@",LEN(F2)-LEN(SUBSTITUTE(F2,"/",""))),1))
 ```
-![alt text][img2]
+![alt text](./assets/img2.png)
 
 Sources:
 
 [Substring](https://www.excel-easy.com/examples/substring.html#:~:text=To%20extract%20the%20leftmost%20characters,correct%20number%20of%20leftmost%20characters.)
 
 [Getting the last position of a character using excel formula](https://trumpexcel.com/find-characters-last-position/)
-
-[img1]: ./assets/img1.png "Image 1" 
-
-[img2]: ./assets/img2.png "Image 2" 
-
-[img3]: ./assets/img3.png "Image 3" 
