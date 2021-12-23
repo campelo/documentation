@@ -1,13 +1,12 @@
---------
+---
+title: New sample
 published: false
-title: "How to get a substring from a text"
-cover_image: "./assets/cover.jpg"
-description: "A easy way to keep your posts updated"
-tags: excel, substring
-series:
-canonical_url:
+description: A new simple test article
+tags: 'productivity, beginners, test'
+cover_image: ./assets/cat.jpg
+canonical_url: null
 id: 935082
---------
+---
 
 # How to get a substring from a text
 
