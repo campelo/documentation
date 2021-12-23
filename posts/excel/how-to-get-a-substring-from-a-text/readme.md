@@ -46,8 +46,8 @@ Sources:
 
 [Getting the last position of a character using excel formula](https://trumpexcel.com/find-characters-last-position/)
 
-[img1]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img1.png "Image 1" 
+[img1]: ./assets/img1.png "Image 1" 
 
-[img2]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img2.png "Image 2" 
+[img2]: ./assets/img2.png "Image 2" 
 
-[img3]: https://github.com/campelo/documentation/blob/master/posts/excel/how-to-get-a-substring-from-a-text/assets/img3.png "Image 3" 
+[img3]: ./assets/img3.png "Image 3" 
