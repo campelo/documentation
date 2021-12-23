@@ -3,7 +3,7 @@ title: New sample
 published: false
 description: A new simple test article
 tags: 'productivity, beginners, test'
-cover_image: ./assets/cat.jpg
+cover_image: ./assets/img2.png
 canonical_url: null
 id: 935082
 ---
