@@ -46,3 +46,7 @@ Sources:
 [Substring](https://www.excel-easy.com/examples/substring.html#:~:text=To%20extract%20the%20leftmost%20characters,correct%20number%20of%20leftmost%20characters.)
 
 [Getting the last position of a character using excel formula](https://trumpexcel.com/find-characters-last-position/)
+
+# Found a typo?
+
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
