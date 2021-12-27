@@ -1,4 +1,13 @@
-# How to get filtered list items by termset
+---
+title: Power Automate - How to get filtered list items by termset
+published: true
+description: Filtering lists by termset terms.
+tags: 'powerautomate, filter, taxonomy, termset'
+cover_image: ./../assets/cover.png
+canonical_url: null
+id: 453658
+
+---
 
 Using **Sent an HTTP request to SharePoint** action, it's possible to get filtered items using ODATA query string. But if you use termset taxonomy, you could use a xml to send that filter conditions.
 
@@ -47,6 +56,8 @@ In this exemple, we would get all items that one of date fields (FirstDate, Seco
 
 An important tip is that the complex conditions is more difficult to be computed. For better performances, it's suggested to use simple conditions first and complex ones after. Like as the example, we use the date conditions first and termset conditions after those ones.
 
-![alt text][img1]
+![Image 1](./assets/img1.png)
 
-[img1]: https://github.com/campelo/documentation/blob/master/power-automate/how-to-get-filtered-list-items-by-termset/assets/img1.png "Image 1" 
+## Typos or suggestions?
+
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
