@@ -3,7 +3,7 @@ title: Power Automate - How to get filtered list items by termset
 published: true
 description: Filtering lists by termset terms.
 tags: 'powerautomate, filter, taxonomy, termset'
-cover_image: ../assets/cover.png
+cover_image: ../../assets/cover.png
 canonical_url: null
 id: 453658
 
