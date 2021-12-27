@@ -3,7 +3,7 @@ title: Excel - How to get a substring from a text
 published: true
 description: Getting a substring from a cell in excel
 tags: 'excel, substring'
-cover_image: ./../assets/cover.png
+cover_image: ../assets/cover.png
 canonical_url: null
 id: 935082
 date: '2021-12-23T23:10:15Z'
