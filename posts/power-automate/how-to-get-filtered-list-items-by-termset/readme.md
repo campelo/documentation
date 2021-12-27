@@ -6,7 +6,7 @@ tags: 'powerautomate, filter, taxonomy, termset'
 cover_image: ../../assets/cover.png
 canonical_url: null
 id: 453658
-
+date: '2021-12-27T15:54:35Z'
 ---
 
 Using **Sent an HTTP request to SharePoint** action, it's possible to get filtered items using ODATA query string. But if you use termset taxonomy, you could use a xml to send that filter conditions.
