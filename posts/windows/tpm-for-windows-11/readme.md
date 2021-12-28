@@ -3,11 +3,20 @@ title: Windows - How to check if your PC has TPM for windows 11
 published: true
 description: Checking if your PC has tpm 2.0 for windows 11
 tags: 'windows11, tpm, windows, 11'
-cover_image: ./assets/cover.jpg
+cover_image: ./assets/cover_img.jpg
 canonical_url: null
 id: 938460
 date: '2021-12-28T12:30:55Z'
 ---
+
+###### :postbox: Contact
+
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+
+:brazil: :us: :fr:
+
+***
 
 ## TPM
 [Trusted Platform Module (TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview) is a hardware-based that provides physical security protection to your data. TPM version 2.0 is required for windows 11, the new version of windows.
