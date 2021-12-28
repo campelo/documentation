@@ -2,8 +2,8 @@
 
 [![Build Status](https://github.com/campelo/documentation/workflows/publish/badge.svg)](https://github.com/campelo/documentation/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
-[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue.svg)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
 :brazil: :us: :fr:
 
