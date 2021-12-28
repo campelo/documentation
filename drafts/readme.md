@@ -1,11 +1,3 @@
-# Windows 11
-win + r
-tpm.msc
-specific version
-
-system information
-secure boot state
-
 # Developement
 
 ## Security Considerations
