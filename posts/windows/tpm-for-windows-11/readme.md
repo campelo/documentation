@@ -6,6 +6,7 @@ tags: 'windows11, tpm, windows, 11'
 cover_image: ../../assets/cover.png
 canonical_url: null
 id: 938460
+date: '2021-12-28T12:30:55Z'
 ---
 
 ## TPM
