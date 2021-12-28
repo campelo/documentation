@@ -11,8 +11,8 @@ date: '2021-12-23T23:10:15Z'
 
 ###### :postbox: Contact
 
-[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
-[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue.svg)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
 :brazil: :us: :fr:
 
