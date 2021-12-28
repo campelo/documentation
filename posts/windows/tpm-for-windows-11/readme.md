@@ -9,14 +9,12 @@ id: 938460
 date: '2021-12-28T12:30:55Z'
 ---
 
-###### :postbox: Contact
+###### :postbox: Contact :brazil: :us: :fr:
 
-[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/campelo87)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+[![Twitter](./../../assets/twitter.png)](https://twitter.com/campelo87)
+[![LinkedIn](./../../assets/linkedin.png)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
-:brazil: :us: :fr:
-
-***
+---
 
 ## TPM
 [Trusted Platform Module (TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview) is a hardware-based that provides physical security protection to your data. TPM version 2.0 is required for windows 11, the new version of windows.
