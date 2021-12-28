@@ -9,6 +9,15 @@ id: 453658
 date: '2021-12-27T15:54:35Z'
 ---
 
+###### :postbox: Contact
+
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+
+:brazil: :us: :fr:
+
+***
+
 Using **Sent an HTTP request to SharePoint** action, it's possible to get filtered items using ODATA query string. But if you use termset taxonomy, you could use a xml to send that filter conditions.
 
 Each condition it's analysed by pair. So, there isn't an **AND** or **OR** with three or more conditions inside them. For that, you should use subgroups of pair conditions.
@@ -61,6 +70,3 @@ An important tip is that the complex conditions is more difficult to be computed
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
-
-You can contact me in any of these languages
-:brazil: :us: :fr:

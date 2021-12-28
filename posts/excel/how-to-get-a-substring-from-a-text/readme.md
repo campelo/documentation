@@ -9,6 +9,15 @@ id: 935082
 date: '2021-12-23T23:10:15Z'
 ---
 
+###### :postbox: Contact
+
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+
+:brazil: :us: :fr:
+
+***
+
 If you're trying to get a part of a text from a excel's cell, this post can help you with a few samples.
 For all examples we need a delimited char to split our text in two parts, nedeed and needless.
 
@@ -62,6 +71,3 @@ Then we will eliminate all left side from searched text. On our example, we will
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
-
-You can contact me in any of these languages
-:brazil: :us: :fr:

@@ -9,6 +9,15 @@ id: 938460
 date: '2021-12-28T12:30:55Z'
 ---
 
+###### :postbox: Contact
+
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social)](https://twitter.com/campelo87)
+[![LinkedIn](https://img.shields.io/badge/In-LinkedIn-blue)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+
+:brazil: :us: :fr:
+
+***
+
 ## TPM
 [Trusted Platform Module (TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview) is a hardware-based that provides physical security protection to your data. TPM version 2.0 is required for windows 11, the new version of windows.
 
@@ -64,6 +73,3 @@ To know if TPM is installed, all of three valeus must to be **TRUE**
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
-
-You can contact me in any of these languages
-:brazil: :us: :fr:
