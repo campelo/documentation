@@ -11,8 +11,8 @@ date: '2021-12-28T12:30:55Z'
 
 ###### :postbox: Contact :brazil: :us: :fr:
 
-[![Twitter](./../../assets/twitter.png)](https://twitter.com/campelo87)
-[![LinkedIn](./../../assets/linkedin.png)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+[Twitter](https://twitter.com/campelo87)
+[LinkedIn](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
 ---
 
