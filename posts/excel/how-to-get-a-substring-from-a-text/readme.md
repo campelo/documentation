@@ -9,14 +9,12 @@ id: 935082
 date: '2021-12-23T23:10:15Z'
 ---
 
-###### :postbox: Contact
+###### :postbox: Contact :brazil: :us: :fr:
 
-[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/campelo87)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
+[![Twitter](./../../assets/twitter.png)](https://twitter.com/campelo87)
+[![LinkedIn](./../../assets/linkedin.png)](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
-:brazil: :us: :fr:
-
-***
+---
 
 If you're trying to get a part of a text from a excel's cell, this post can help you with a few samples.
 For all examples we need a delimited char to split our text in two parts, nedeed and needless.
