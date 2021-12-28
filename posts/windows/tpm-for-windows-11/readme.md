@@ -3,7 +3,7 @@ title: Windows - How to check if your PC has TPM for windows 11
 published: true
 description: Checking if your PC has tpm 2.0 for windows 11
 tags: 'windows11, tpm, windows, 11'
-cover_image: ../../assets/cover.png
+cover_image: ./assets/cover.jpg
 canonical_url: null
 id: 938460
 date: '2021-12-28T12:30:55Z'
