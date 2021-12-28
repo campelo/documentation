@@ -3,7 +3,7 @@ title: Windows - How to check if your PC has TPM for windows 11
 published: true
 description: Checking if your PC has tpm 2.0 for windows 11
 tags: 'windows11, tpm, windows, 11'
-cover_image: ./assets/cover.jpg
+cover_image: ./assets/cover_img.jpg
 canonical_url: null
 id: 938460
 date: '2021-12-28T12:30:55Z'
@@ -64,3 +64,6 @@ To know if TPM is installed, all of three valeus must to be **TRUE**
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+
+You can contact me in any of these languages
+:brazil: :us: :fr:

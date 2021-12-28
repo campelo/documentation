@@ -62,3 +62,6 @@ Then we will eliminate all left side from searched text. On our example, we will
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+
+You can contact me in any of these languages
+:brazil: :us: :fr:
