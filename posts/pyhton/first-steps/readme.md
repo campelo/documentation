@@ -75,12 +75,10 @@ Now you able to write your first code. For that you can create a new file called
 
 ![Image 6](./assets/img6.png)
 
-
 ###### Notes
 
 - You can access this code on [github](https://github.com/campelo/Python-First-steps).
 - **py** extension is either called a python program or python script.
-
 
 ## Typos or suggestions?
 
