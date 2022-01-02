@@ -6,6 +6,7 @@ tags: 'python, begginer, start'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 942660
+date: '2022-01-02T17:21:31Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
