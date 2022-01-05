@@ -7,6 +7,7 @@ tags: 'python, begginer, variables'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 945644
+date: '2022-01-05T19:25:14Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
