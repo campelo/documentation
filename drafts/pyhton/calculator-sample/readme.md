@@ -1,9 +1,9 @@
 ---
-title: Python - Variables
+title: Python - Calculator sample
 series: Python - Getting started
 published: false
-description: Variables in python
-tags: 'python, begginer, variable'
+description: Calculator sample
+tags: 'python, begginer, sample, calculator'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 
@@ -16,28 +16,29 @@ id:
 
 ---
 
-## Variables
-
-
-### Calculator sample
+## Calculator sample
 
 Create a new file called Calculator.py and add this code
 
-```
-firstNumber = 2 // integer number
-secondNumber = 5.3  // float number
-total = firstNumber + secondNumber // float will be used
-result = "The total is " + total // it'wll concatenate a string with the total float result
-print(result)  // it will print the result
+```python
+firstNumber = input("Enter the first number: ") # it will wait user input for the first number
+secondNumber = input("Enter the second number: ")  # it will wait user input for the second number
+total = firstNumber + secondNumber # it will keep the result in a variable called total
+print(total)  # it will show the result
 ```
 
-![Image 1](./assets/img1.png)
+To execute this python program you can execute it with the command
+
+```bash
+python3 calculator.py
+```
+
+![Image 1](..\assets/img1.png)
+
 
 ###### Notes
 
 You can access this code on [github](https://github.com/campelo/Python-First-steps).
-**py** extension is either called a python program or python script.
-
 
 ## Typos or suggestions?
 

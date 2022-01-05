@@ -22,7 +22,7 @@ id: 942661
 
 The basics for write a variable and its value is **variable name** + **equals sign** + **variable value**. That will create a new variable and its type will be infered by the value type.
 
-```
+```python
 myVariableName = myValue
 ```
 
@@ -30,61 +30,61 @@ I'll show you some data types bellow, but you can learn more about other ones on
 
 ### Integer
 
-```
-myInteger = 3 // infered data type
+```python
+myInteger = 3 # infered data type
 ```
 
 or 
 
-```
-myInteger = int(3) // explicitly
+```python
+myInteger = int(3) # explicitly
 ```
 
 ### Float
 
-```
-myFloat = 3.5 // infered data type
+```python
+myFloat = 3.5 # infered data type
 ```
 
 or
 
-```
-myFloat = float(3.5) // explicitly
+```python
+myFloat = float(3.5) # explicitly
 ```
 
 ### String
 
-```
-myString = 'Have a nice day!' // infered data type
+```python
+myString = 'Have a nice day!' # infered data type
 ```
 
 or
 
-```
-myString = str('Have a nice day!') // explicitly
+```python
+myString = str('Have a nice day!') # explicitly
 ```
 
 You can use *double quotes* **"** or *single quotes* **'** to delimit the string. When you're using the first one, it'll be easier to write single quotes inside your value string.
 
-```
+```python
 myString = "Jhon's house"
 ```
 
 Using single quotes everywhere, you should to scape **\\** all of the single quotes in the value.
 
-```
+```python
 myString = 'Jhon\'s house'
 ```
 
 ### Boolean
 
-```
+```python
 myBool = True
 ```
 
 or 
 
-```
+```python
 myBool = bool(True)
 ```
 
