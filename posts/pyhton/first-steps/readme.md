@@ -1,5 +1,6 @@
 ---
 title: Python - First steps
+series: Python - Getting started
 published: true
 description: First steps to use Python
 tags: 'python, begginer, start'
@@ -83,3 +84,5 @@ Now you able to write your first code. For that you can create a new file called
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+
+[Next post](https://dev.to/campelo/python-first-steps-3ih5)

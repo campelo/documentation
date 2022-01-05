@@ -1,11 +1,12 @@
 ---
 title: Python - Variables
+series: Python - Getting started
 published: false
 description: Variables in python
 tags: 'python, begginer, variable'
 cover_image: ../assets/cover.jpg
 canonical_url: null
-id: 942661
+id: 
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -17,15 +18,17 @@ id: 942661
 
 ## Variables
 
-**Python infers types of variables**. This means that you don't need to write string, boolean, int or others to explicit declarations to work with variables. 
+
+### Calculator sample
 
 Create a new file called Calculator.py and add this code
 
 ```
-firstNumber = 2
-secondNumber = 5.3
-total = firstNumber + secondNumber
-print(total)
+firstNumber = 2 // integer number
+secondNumber = 5.3  // float number
+total = firstNumber + secondNumber // float will be used
+result = "The total is " + total // it'wll concatenate a string with the total float result
+print(result)  // it will print the result
 ```
 
 ![Image 1](./assets/img1.png)
