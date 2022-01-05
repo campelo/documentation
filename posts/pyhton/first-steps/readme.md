@@ -31,7 +31,7 @@ You can run this command to confirm that Python is installed
 
 **For UNIX or Linux distros**
 
-```
+```bash
 python3 --version
 ```
 
@@ -39,7 +39,7 @@ python3 --version
 
 **For Windows**
 
-```
+```powershell
 py --version
 ```
 
@@ -51,7 +51,7 @@ You should to consider the command **python3** for *UNIX* or *Linux* distros and
 
 You can use the command line to execute Python like this.
 
-```
+```bash
 python3
 ``` 
 
@@ -59,7 +59,7 @@ python3
 
 And then, you can start coding like that
 
-```
+```python
 2 + 5
 ```
 
