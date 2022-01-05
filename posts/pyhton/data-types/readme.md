@@ -1,7 +1,7 @@
 ---
 title: Python - Data types
 series: Python - Getting started
-published: false
+published: true
 description: Data types in python
 tags: 'python, begginer, data, type'
 cover_image: ../assets/cover.jpg
@@ -95,5 +95,3 @@ You can access this code on [github](https://github.com/campelo/Python-First-ste
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
-
-[Previous post](https://dev.to/campelo/python-first-steps-3ih5)
