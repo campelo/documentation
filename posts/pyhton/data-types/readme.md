@@ -7,6 +7,7 @@ tags: 'python, begginer, data, type'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 942661
+date: '2022-01-05T15:29:31Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
