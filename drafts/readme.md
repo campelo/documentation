@@ -2,9 +2,6 @@
 
 ## 
 
-
-===
-
 # Linux
 
 ## Alias
@@ -20,7 +17,12 @@ find /dir/to/search -name "file name" -print # it will show all files called "fi
 find /dir/to/search -name "file name" -print 2>/dev/null # 2>/dev/null will redirect all errors to /dev/null
 find /dir/to/search -name "file name" -print 2>&1 | grep -v "Permission denied" # 2>&1 will redirect all errors to the screen while grep will ignore all messages containing "Permission denied"
 ```
-===
+
+# Chrome
+
+## Always incognito
+
+Add ```/incognito``` to the start command
 
 # Developement
 
