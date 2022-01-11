@@ -6,6 +6,7 @@ tags: 'windows, script, executionPolicy, powerShell'
 cover_image: ../../assets/cover.png
 canonical_url: null
 id: 951798
+date: '2022-01-11T16:58:58Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
