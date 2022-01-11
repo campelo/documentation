@@ -3,7 +3,7 @@ title:
 published: false
 description: 
 tags: ''
-cover_image: ../assets/cover.png
+cover_image: ../../assets/cover.png
 canonical_url: null
 id: 
 ---

@@ -3,7 +3,7 @@ title: Node - Setting a custom npm server
 published: true
 description: Setting a custom npm server
 tags: 'npm, custom, private, server'
-cover_image: ../assets/cover.png
+cover_image: ../../assets/cover.png
 canonical_url: null
 id: 951870
 ---
