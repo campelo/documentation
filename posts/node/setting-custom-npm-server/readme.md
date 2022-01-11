@@ -26,7 +26,7 @@ npm config set registry https://mySite.com/private/repo-npm
 npm config set strict-ssl false
 ```
 
-or you can edit the file **```%userprofile%\.npmrc```** manually to change per-user config [npmrc docs](https://docs.npmjs.com/cli/v8/configuring-npm/npmrc)
+or you can edit the file **%userprofile%\.npmrc** manually to change per-user config [npmrc docs](https://docs.npmjs.com/cli/v8/configuring-npm/npmrc)
 
 ```
 registry=https://mySite.com/private/repo-npm
