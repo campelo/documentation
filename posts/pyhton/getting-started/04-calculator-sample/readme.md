@@ -33,7 +33,7 @@ To execute this python program you can execute it with the command
 python3 calculator.py
 ```
 
-![Image 1](../assets/img1.png)
+![Image 1](./assets/img1.png)
 
 Here we have a problem. 2 + 3 is 5, so why the output is showing 23? It happens because anything received by the **input** il will be always a string type. It's the same as write this ```firstNumber = "2"``` instead of this ```firstNumber = 2```.
 
@@ -48,7 +48,7 @@ print(total)  # it will show the result
 
 And then, we have the correct answer:
 
-![Image 2](../assets/img2.png)
+![Image 2](./assets/img2.png)
 
 What about improving the answer message? We would like to show a message like **The result is:** beside of the result. So, here is our new code:
 
@@ -61,7 +61,7 @@ print("The result is: " + total)  # it will show the result
 
 If we try to execute it, we get an error **TypeError: can only concatenate str (not "int") to str**. 
 
-![Image 3](../assets/img3.png)
+![Image 3](./assets/img3.png)
 
 It happens because python can't concatenate **string** and **integer** types directly. So, we have to convert the **int** variable to **string** before show the message. Our new code will look like that:
 
@@ -74,7 +74,7 @@ print("The result is: " + str(total))  # it will show the result
 
 And everything is correct now.
 
-![Image 4](../assets/img4.png)
+![Image 4](./assets/img4.png)
 
 ###### Notes
 
