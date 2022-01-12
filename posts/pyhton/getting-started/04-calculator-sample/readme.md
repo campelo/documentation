@@ -7,6 +7,7 @@ tags: 'python, begginer, sample, calculator'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 952740
+date: '2022-01-12T13:49:38Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
