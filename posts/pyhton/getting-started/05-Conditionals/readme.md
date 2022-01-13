@@ -7,6 +7,7 @@ tags: 'python, begginer, condition, if'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 954085
+date: '2022-01-13T15:29:21Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
