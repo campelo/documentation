@@ -36,7 +36,7 @@ python3 calculator.py
 
 ![Image 1](./assets/img1.png)
 
-Here we have a problem. 2 + 3 is 5, so why the output is showing 23? It happens because anything received by the **input** il will be always a string type. It's the same as write this ```firstNumber = "2"``` instead of this ```firstNumber = 2```
+Here we have a problem. 2 + 3 is 5, so why the output is showing 23? It happens because anything received by the **input** il will be always a string type. It's the same as writing this ```firstNumber = "2"``` instead of this ```firstNumber = 2```
 
 So, we have to convert the received input to a number.
 
