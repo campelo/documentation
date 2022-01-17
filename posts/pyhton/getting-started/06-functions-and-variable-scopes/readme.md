@@ -7,6 +7,7 @@ tags: 'python, begginer, function, scope'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 958267
+date: '2022-01-17T14:18:55Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
