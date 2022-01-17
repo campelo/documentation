@@ -77,9 +77,9 @@ sayGoodBye()
 
 ![Image 2](./assets/img2.png)
 
-The sayGoodBy function is using the **input_name** global variable to write an output to the user.
+The sayGoodBye function is using the **input_name** global variable to write an output to the user.
 
-On the other hand, the name variable is only available in the sayHello function. That means that if we try to use the **name** variable inside the sayGoodBye function it won't work and we will receive an error informing that the **name** variable isn't defined neither locally nor globally.
+On the other hand, the **name** variable is only available in the sayHello function. That means that, if we try to use the **name** variable inside the sayGoodBye function it won't work and we will receive an error informing that the **name** variable isn't defined neither locally nor globally.
 
 ```python
 def sayHello(name):
