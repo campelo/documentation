@@ -7,6 +7,7 @@ tags: 'python, begginer, condition, if'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 954085
+date: '2022-01-13T15:29:21Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -99,4 +100,8 @@ else:
 
 ## Typos or suggestions?
 
+<<<<<<< HEAD
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+=======
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+>>>>>>> origin/master
