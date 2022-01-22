@@ -19,8 +19,6 @@ id:
 
 ## Publishing on IIS
 
-You should to install [Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.22-windows-hosting-bundle-installer) to use an asp.net core app on IIS.
-
 You can use [this documentation](https://docs.microsoft.com/en-us/dotnet/core/deploying/) for publishing by command line or [this one](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish) to know more about **dotnet publish** command.
 
 ### Examples
@@ -39,6 +37,10 @@ dotnet publish -p:PublishProfile=FolderProfile
 You can also set a runtime identifier to your app for some of your .csproj files
 
 ![Image 3](./assets/img3.png)
+
+You should to install [Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.22-windows-hosting-bundle-installer) to use an asp.net core app on IIS.
+
+Be sure to host your app as a **sub-application** or a **new web application** because [iis virtual directory](#for-error-500) isn't allowed to host an ASP.NET Core app.
 
 ### Enabling SSL to use HTTPS
 
@@ -59,6 +61,12 @@ After that, you can change your settings to require SSL.
 ### For error 403.16 
 
 If you have a 403.16 error with a message like *The client certificate used for this request is not trusted by the Web server.*, you can use [this documentation](https://docs.microsoft.com/en-us/troubleshoot/developer/webapps/iis/health-diagnostic-performance/http-403-forbidden-access-website) to help you to configure your certificates.
+
+### For error 500 
+
+If you try to use an ASP.NET Core as a virtual directory, you will probably have this issue. So, be sure you're using a **sub-application** or a new **web application** instead. Read [this microsoft documentation](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1#virtual-directories) for further details. 
+
+![Image 8](./assets/img8.png)
 
 # Frontend App
 
@@ -104,6 +112,10 @@ Then, you can create a new web.config file with the follow content:
 </system.webServer>
 </configuration>
 ```
+
+You can also add a new file to your angular project called web.config. Then, insert a new line in your architect > build > options > assets that points to this new file.
+
+![Image 7](./assets/img7.png)
 
 ## Typos or suggestions?
 
