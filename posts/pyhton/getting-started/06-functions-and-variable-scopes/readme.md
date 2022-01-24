@@ -78,9 +78,15 @@ sayGoodBye()
 
 ![Image 2](./assets/img2.png)
 
+<<<<<<< HEAD
+The sayGoodBye function is using the **input_name** global variable to write an output to the user.
+
+On the other hand, the **name** variable is only available in the sayHello function. That means that, if we try to use the **name** variable inside the sayGoodBye function it won't work and we will receive an error informing that the **name** variable isn't defined neither locally nor globally.
+=======
 The sayGoodBy function is using the **input_name** global variable to write an output to the user.
 
 On the other hand, the name variable is only available in the sayHello function. That means that if we try to use the **name** variable inside the sayGoodBye function it won't work and we will receive an error informing that the **name** variable isn't defined neither locally nor globally.
+>>>>>>> origin/master
 
 ```python
 def sayHello(name):
@@ -98,4 +104,8 @@ sayGoodBye()
 
 ## Typos or suggestions?
 
+<<<<<<< HEAD
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+=======
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+>>>>>>> origin/master

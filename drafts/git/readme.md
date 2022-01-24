@@ -15,6 +15,16 @@ id:
 
 ---
 
+## Stash
+git stash save "description"
+git stash list
+git stash apply 3 *3 represents the stash id*
+git fetch --prune
+git checkout -b newLocalBranchName
+git checkout --track origin/newLocalBranchName
+git merge origin/remoteBranchName
+git push origin localBranchName:newRemoteBranchName
+
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.

@@ -1,30 +1,19 @@
-# Typescript
+---
+title: 
+published: false
+description: 
+tags: ''
+cover_image: ../../assets/cover.png
+canonical_url: null
+id: 
+---
 
-## 
+###### :postbox: Contact :brazil: :us: :fr:
 
-# Linux
+[Twitter](https://twitter.com/campelo87)
+[LinkedIn](https://www.linkedin.com/in/flavio-campelo/?locale=en_US)
 
-## Alias
-```bash
-alias # it will show all alias
-alias name # it will show the alias for 'name' command
-alias name='my command here' # it will set a new 'name' alias that it will execute the command 'my command here'
-```
-
-## Find
-```bash
-find /dir/to/search -name "file name" -print # it will show all files called "file name" for the folder '/dir/to/search'
-find /dir/to/search -name "file name" -print 2>/dev/null # 2>/dev/null will redirect all errors to /dev/null
-find /dir/to/search -name "file name" -print 2>&1 | grep -v "Permission denied" # 2>&1 will redirect all errors to the screen while grep will ignore all messages containing "Permission denied"
-```
-
-# Chrome
-
-## Always incognito
-
-Add ```/incognito``` to the start command
-
-# Developement
+---
 
 ## Start multiple projects in Visual Studio
 - Select the project as startup projet
@@ -214,33 +203,6 @@ Create a new tenant (optional)
 Create a new App registration "MyApp-FrontEnd"
 For the SPA's Redirect URI add **http://localhost:4200**
 
-# Git
+## Typos or suggestions?
 
-## Stash
-git stash save "description"
-git stash list
-git stash apply 3 *3 represents the stash id*
-git fetch --prune
-git checkout -b newLocalBranchName
-git merge origin/remoteBranchName
-git push origin localBranchName:newRemoteBranchName
-
-# CSS
-## measures 
-px, cm, %, em, in, vh...
-
-# Node
-
-## Install specific version
-npm install @angular/material@13.0.0
-npm install @angular/material@13.0.*
-npm install @angular/material@13.*
-
-caret ^
-^4.3.0
-will load the latest 4.x.x release, but will not load 5.x.x
-
-tilde ~
-~4.3.0
-will load the latest 4.3.x release, but will not load 4.4.x
-
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
