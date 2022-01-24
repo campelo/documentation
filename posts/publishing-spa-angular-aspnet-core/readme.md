@@ -6,6 +6,7 @@ tags: 'iis, angular, netCore, spa'
 cover_image: ./assets/cover.png
 canonical_url: null
 id: 966404
+date: '2022-01-24T23:27:04Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
