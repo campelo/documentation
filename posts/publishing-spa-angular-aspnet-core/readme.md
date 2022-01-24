@@ -1,11 +1,11 @@
 ---
-title: 
-published: false
-description: 
-tags: ''
-cover_image: ../../assets/cover.png
+title: Publishing SPA application (ASP.NET Core + Angular) on IIS Server
+published: true
+description: Publishing SPA application (ASP.NET Core + Angular) on IIS Server
+tags: 'iis, angular, asp.net, spa'
+cover_image: ./assets/cover.png
 canonical_url: null
-id: 
+id: 966404
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -15,7 +15,7 @@ id:
 
 ---
 
-# Backend App
+# Backend App (ASP.NET Core)
 
 ## Publishing on IIS
 
@@ -40,13 +40,13 @@ You can also set a runtime identifier to your app for some of your .csproj files
 
 You should to install [Hosting Bundle](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.22-windows-hosting-bundle-installer) to use an asp.net core app on IIS.
 
-Be sure to host your app as a **sub-application** or a **new web application** because [iis virtual directory](#for-error-500) isn't allowed to host an ASP.NET Core app.
+Be sure to host your app as a **sub-application** or a **new web application** because [iis virtual directory](#for-error-500) isn't allowed for hosting an ASP.NET Core app.
 
 ### Enabling SSL to use HTTPS
 
 On IIS Manager you can use a certificate to enable IIS. Here's a sample of how to [create a certificate](https://enterprise.arcgis.com/en/web-adaptor/10.3/install/iis/enable-https-on-your-web-server-server-.htm).
 
-It's recommended to use a valid certificate from a trusted authority for that. Then you can select your application and a certificate as identified by the follow image:
+It's recommended to use a valid certificate from a trusted authority in production. Then you can select your application and a certificate as identified by the follow image:
 
 ![Image 4](./assets/img4.png)
 
@@ -68,11 +68,23 @@ If you try to use an ASP.NET Core as a virtual directory, you will probably have
 
 ![Image 8](./assets/img8.png)
 
-# Frontend App
+# Frontend App (Angular)
 
 ## Publishing on IIS
 
-Run this command to build to prod.
+There are sereral parameters to build an application in production. [Angular deployment documentation](https://angular.io/guide/deployment) could show you more options about that. 
+
+You can add a new line in the package.json file to create a new alias for the command like that: 
+
+![Image 9](./assets/img9.png)
+
+And then, run this command.
+
+```shell
+npm run prod
+```
+
+Or execute the full command in the command line. For the both options, the results will be the same.
 
 ```shell
 ng build -c production --base-href /my-app/
@@ -113,7 +125,7 @@ Then, you can create a new web.config file with the follow content:
 </configuration>
 ```
 
-You can also add a new file to your angular project called web.config. Then, insert a new line in your architect > build > options > assets that points to this new file.
+You can also add this new file to your angular project called web.config. And then, insert a new line in your angular.json file under *project name &rarr; architect &rarr; build &rarr; options &rarr; assets* that points to this new file.
 
 ![Image 7](./assets/img7.png)
 
