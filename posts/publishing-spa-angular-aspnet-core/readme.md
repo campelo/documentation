@@ -2,7 +2,7 @@
 title: Publishing SPA application (ASP.NET Core + Angular) on IIS Server
 published: true
 description: Publishing SPA application (ASP.NET Core + Angular) on IIS Server
-tags: 'iis, angular, asp.net, spa'
+tags: 'iis, angular, netCore, spa'
 cover_image: ./assets/cover.png
 canonical_url: null
 id: 966404
