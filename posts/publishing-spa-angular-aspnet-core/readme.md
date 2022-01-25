@@ -77,7 +77,7 @@ There are sereral parameters to build an application in production. [Angular dep
 
 You can add a new line in the package.json file to create a new alias for the command like that: 
 
-![Image 9](./assets/img9.png)
+![Image 10](./assets/img10.png)
 
 And then, run this command.
 
