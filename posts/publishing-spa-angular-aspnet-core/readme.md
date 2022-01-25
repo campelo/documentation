@@ -47,7 +47,7 @@ Be sure to host your app as a **sub-application** or a **new web application** b
 
 On IIS Manager you can use a certificate to enable IIS. Here's a sample of how to [create a certificate](https://enterprise.arcgis.com/en/web-adaptor/10.3/install/iis/enable-https-on-your-web-server-server-.htm).
 
-It's recommended to use a valid certificate from a trusted authority in production. Then you can select your application and a certificate as identified by the follow image:
+It's recommended to use a valid certificate from a trusted authority in production. Then you can select your application and a certificate as identified by the following image:
 
 ![Image 4](./assets/img4.png)
 
@@ -105,7 +105,7 @@ To support deep-linking, capability to navigate directly to a page by typing the
 
 [Angular on iis](https://devblogs.microsoft.com/premier-developer/tips-for-running-an-angular-app-in-iis/)
 
-Then, you can create a new web.config file with the follow content:
+Then, you can create a new web.config file with the content bellow:
 
 ```xml
 <configuration>
@@ -126,7 +126,7 @@ Then, you can create a new web.config file with the follow content:
 </configuration>
 ```
 
-You can also add this new file to your angular project called web.config. And then, insert a new line in your angular.json file under *project name &rarr; architect &rarr; build &rarr; options &rarr; assets* that points to this new file.
+You can also add a web.config file to your angular project. And then, insert a new line in your angular.json file that points to this new file under *project name &rarr; architect &rarr; build &rarr; options &rarr; assets*.
 
 ![Image 7](./assets/img7.png)
 
