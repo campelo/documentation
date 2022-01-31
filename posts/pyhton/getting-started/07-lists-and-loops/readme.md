@@ -128,7 +128,6 @@ for i in range(0, 4, 2):
   print(i, end="-")
   print(fruits[i])
 
-/* */
 # OUTPUT
 # Range with element to stop. It'll take from the first until the third element...
 # 0-orange
