@@ -7,6 +7,7 @@ tags: 'python, begginer, loop, list'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 974214
+date: '2022-01-31T20:31:07Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
