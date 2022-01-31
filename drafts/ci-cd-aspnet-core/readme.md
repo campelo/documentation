@@ -1,10 +1,9 @@
 ---
-title: Python - Lists and loops
-series: Python - Getting started
-published: true
-description: Interacting with lists using loops
-tags: 'python, begginer, loop, list'
-cover_image: ../assets/cover.jpg
+title: 
+published: false
+description: 
+tags: ''
+cover_image: ../../assets/cover.png
 canonical_url: null
 id: 
 ---
@@ -16,6 +15,8 @@ id:
 
 ---
 
+[Server ASP.NET Core](https://medium.com/software-development-turkey/deploying-to-on-prem-server-with-using-azure-devops-pipelines-842f4aa226a7)
+[Yaml Angular](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml)
 
 ## Typos or suggestions?
 
