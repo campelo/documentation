@@ -7,6 +7,7 @@ tags: 'python, begginer, loop, list'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 974214
+date: '2022-01-31T20:31:07Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -128,6 +129,10 @@ for i in range(0, 4, 2):
   print(i, end="-")
   print(fruits[i])
 
+<<<<<<< HEAD
+=======
+/* */
+>>>>>>> origin/master
 # OUTPUT
 # Range with element to stop. It'll take from the first until the third element...
 # 0-orange
@@ -163,4 +168,8 @@ for myFruit in fruits:
 
 ## Typos or suggestions?
 
+<<<<<<< HEAD
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+=======
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+>>>>>>> origin/master
