@@ -6,6 +6,7 @@ tags: 'sqlite, varchar, text, length'
 cover_image: ../assets/cover.jpg
 canonical_url: null
 id: 976317
+date: '2022-02-02T15:30:11Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
