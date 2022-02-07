@@ -35,7 +35,7 @@ if genre == 2:
 
 ![Image 1](./assets/img1.png)
 
-It's important to know that after each statement we have to indent the statement content. Usually, two blank spaces is the default indent mark for python but you can customize it. It means that all indent code will be execute only if it satisfies the if condition. So, the two pieces of code bellow will be differents.
+It's important to know that after each statement we have to indent the statement content. Usually, two blank spaces is the default indent mark for python but you can customize it. It means that all indent code will be execute only if it satisfies the if condition. So, the two pieces of code below will be differents.
 
 ```python
 if genre == 1:

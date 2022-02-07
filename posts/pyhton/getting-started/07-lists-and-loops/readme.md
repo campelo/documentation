@@ -70,7 +70,7 @@ print (fruits[2])
 
 ## Checking if an element is present on a list
 
-You can check if a element is on a list using writing a new if line (*if element in list*) like the example bellow.
+You can check if a element is on a list using writing a new if line (*if element in list*) like the example below.
 
 ```python
 fruit = 'pear'

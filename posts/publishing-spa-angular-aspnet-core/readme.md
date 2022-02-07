@@ -105,7 +105,7 @@ To support deep-linking, capability to navigate directly to a page by typing the
 
 [Angular on iis](https://devblogs.microsoft.com/premier-developer/tips-for-running-an-angular-app-in-iis/)
 
-Then, you can create a new web.config file with the content bellow:
+Then, you can create a new web.config file with the content below:
 
 ```xml
 <configuration>
