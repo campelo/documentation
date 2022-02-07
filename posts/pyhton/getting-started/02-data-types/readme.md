@@ -27,7 +27,7 @@ The basics for write a variable and its value is **variable name** + **equals si
 myVariableName = myValue
 ```
 
-I'll show you some data types bellow, but you can learn more about other ones on [this site](https://www.w3schools.com/python/python_datatypes.asp)
+I'll show you some data types below, but you can learn more about other ones on [this site](https://www.w3schools.com/python/python_datatypes.asp)
 
 ### Integer
 

@@ -29,7 +29,16 @@ For this example, the comma <strong>,</strong> is our delimited char. Now, you c
 
 
 ## Text on the right
+
 For this example, the comma <strong>,</strong> is our delimited char.
+
+### First method
+
+```
+=TRIM(RIGHT(F2,LEN(F2)-LOOKUP("@",SUBSTITUE(F2,",","@",LEN(F2)-LEN(SUBSTITUE(F2,",",""))),1)))
+```
+
+### Second method
 
 ```
 =FIND(",",F2)

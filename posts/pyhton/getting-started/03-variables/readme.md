@@ -41,7 +41,7 @@ print(myNumber)
 
 ### Breaking line
 
-Using this code bellow, the program will wait for a value from the user.
+Using this code below, the program will wait for a value from the user.
 
 ```python
 myName = input("Enter your name")

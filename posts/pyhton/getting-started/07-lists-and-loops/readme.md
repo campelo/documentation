@@ -70,7 +70,7 @@ print (fruits[2])
 
 ## Checking if an element is present on a list
 
-You can check if a element is on a list using writing a new if line (*if element in list*) like the example bellow.
+You can check if a element is on a list using writing a new if line (*if element in list*) like the example below.
 
 ```python
 fruit = 'pear'
@@ -129,7 +129,6 @@ for i in range(0, 4, 2):
   print(i, end="-")
   print(fruits[i])
 
-/* */
 # OUTPUT
 # Range with element to stop. It'll take from the first until the third element...
 # 0-orange
@@ -165,4 +164,12 @@ for myFruit in fruits:
 
 ## Typos or suggestions?
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+=======
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+>>>>>>> origin/master
+=======
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
+>>>>>>> origin/dev
