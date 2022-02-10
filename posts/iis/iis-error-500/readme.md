@@ -2,7 +2,7 @@
 title: IIS error (500.19)
 published: true
 description: IIS authorization error to web.config file
-tags: 'web, config, iis, iis_iusrs'
+tags: 'web, config, iis, iusrs'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 984891
