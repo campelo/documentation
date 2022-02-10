@@ -1,5 +1,5 @@
 ---
-title: 500.19-IIS error
+title: IIS error (500.19)
 published: true
 description: IIS authorization error to web.config file
 tags: 'web, config, iis, iis_iusrs'
