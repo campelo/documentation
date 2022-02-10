@@ -6,7 +6,6 @@ tags: 'web, config, iis, iusrs'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 984891
-date: '2022-02-10T14:39:55Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -26,7 +25,7 @@ The problem is about the authorizations to the user which is running the applica
 
 So, you have to find the **web.config** file and give access to that user.
 
-When you find the file, **right-click** it and then click on **Properties** and finally open the **Security** tab. You have to add a new authorization to the **IIS_IUSRS** group. *This is a local group so, if you're in a **domain**, you must to select your **local computer** to find it.*
+When you find the file, **right-click** it and then click on **Properties** and finally open the **Security** tab. You have to add a new authorization to the **IIS_IUSRS** group. *This is a local group so, if you're in a* **domain**, *you must to select your* **local computer** *to find it.*
 
 ## IIS_IUSRS group
 
