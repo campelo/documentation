@@ -1,11 +1,12 @@
 ---
-title: Essential linux commands for CTF, ethical hacking
+title: 'Essential linux commands for CTF, ethical hacking'
 published: true
 description: Essential linux commands for ethical hacking
 tags: 'ctf, hacking, ethical, linux'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 991230
+date: '2022-02-16T13:36:49Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
