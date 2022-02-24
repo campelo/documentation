@@ -167,7 +167,7 @@ curl -I HEAD http://mysite.com
 
 ## wget
 
-Download web files from internet.
+Download files from internet.
 
 ```bash
 wget http://mysite.com/file
