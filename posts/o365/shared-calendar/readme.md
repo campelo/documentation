@@ -6,6 +6,7 @@ tags: 'calendar, shared, group, o365'
 cover_image: ./assets/cover.png
 canonical_url: null
 id: 999518
+date: '2022-02-24T01:19:54Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
