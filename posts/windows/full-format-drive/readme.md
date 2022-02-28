@@ -6,6 +6,7 @@ tags: 'efi, format, protected, erase'
 cover_image: ./assets/cover.jpg
 canonical_url: null
 id: 1004112
+date: '2022-02-28T13:45:22Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
