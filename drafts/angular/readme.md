@@ -15,7 +15,7 @@ id:
 
 ---
 
-Here are a list of links that can help you to improve your angular skills.
+Here's a list of links that can help you to improve your angular skills.
 - https://www.ganatan.com/tutorials
 - https://guide-angular.wishtack.io/
 - https://docs.microsoft.com/fr-ca/visualstudio/javascript/tutorial-asp-net-core-with-angular?view=vs-2022
