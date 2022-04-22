@@ -1,11 +1,11 @@
 ---
-title: 
-published: false
-description: 
-tags: ''
-cover_image: ../../assets/cover.png
+title: Creating a new tenant on Azure
+published: true
+description: Creating a new tenant on Azure
+tags: 'azure, tenant, cloud, portal'
+cover_image: ../assets/cover.png
 canonical_url: null
-id: 
+id: 1063789
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
