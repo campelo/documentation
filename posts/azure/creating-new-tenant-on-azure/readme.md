@@ -6,6 +6,7 @@ tags: 'azure, tenant, cloud, portal'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 1063789
+date: '2022-04-22T10:21:43Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
