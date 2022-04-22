@@ -1,11 +1,12 @@
 ---
-title: Azure - Registering a client credentials app 
+title: Azure - Registering a client credentials app
 published: true
 description: Registering a client credentials app on azure
 tags: 'azure, client, credentials, secrets'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 1064275
+date: '2022-04-22T18:36:01Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
