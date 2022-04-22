@@ -1,5 +1,5 @@
 ---
-title: Creating a new tenant on Azure
+title: Azure - Creating a new tenant
 published: true
 description: Creating a new tenant on Azure
 tags: 'azure, tenant, cloud, portal'
