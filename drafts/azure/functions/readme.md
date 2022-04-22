@@ -1,5 +1,5 @@
 ---
-title: 
+title: Azure Functions - Reading users from microsoft graph
 published: false
 description: 
 tags: ''
@@ -18,6 +18,20 @@ id:
 ## Install Azure Functions Core Tools
 
 Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
+
+## To read about
+- **knownClientApplications** in manifest
+- **dotnet user-secrets** [Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+
+```powershell
+dotnet user-secrets init
+
+dotnet user-secrets set tenantId "YOUR_TENANT_ID_HERE"
+```
+
+
+## Sources
+[Build Azure Functions with Microsoft Graph](https://docs.microsoft.com/en-us/graph/tutorials/azure-functions)
 
 ## Typos or suggestions?
 
