@@ -1,5 +1,6 @@
 ---
 title: Azure Functions - Reading users from microsoft graph
+series: Azure Functions - Getting started
 published: false
 description: 
 tags: ''
@@ -15,67 +16,9 @@ id:
 
 ---
 
-## Creating a Function App
+# Dependency Injection
 
-Once you're connected on [Azure Portal](https://portal.azure.com/), you can create a new *Function App*. 
-
-I recommend to user *Consumption plan* for your new function because it's included on Microsoft's limited free services.
-
-## Installing extensions on Visual Studio Code
-
-It's recommended to install [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack) on your VS Code that will connect with your Azure account to make easy to interact with Azure Cloud Services
-
-![Image 1](./assets/img1.jpg)
-
-> [!OPTIONAL] 
-> You could install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
-
-## Creating secrets
-
-```powershell
-dotnet user-secrets init 
-```
-
-This step will create a folder on **%APPDATA%\Microsoft\UserSecrets** and this folder name will be added on your .csproj file in a UserSecretsId tag.
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <UserSecretsId>12345678-1234-1234-1234-1234567890ab</UserSecretsId>
-  </PropertyGroup>
-  
-  ...
-
-</Project>
-```
-
-Then you can add new values to your secret
-
-```powershell
-dotnet user-secrets set tenantId "MY_TENANT_ID"
-dotnet user-secrets set clientId "MY_CLIENT_ID"
-dotnet user-secrets set clientSecret "MY_CLIENT_SECRET"
-```
-
-**MY_TENANT_ID** => It's a GUID value like '12345678-1234-1234-1234-1234567890ab'. You can get this value on your tenant's overview page. https://aad.portal.azure.com/
-**MY_CLIENT_ID** => It's a GUID value like '12345678-1234-1234-1234-1234567890ab'. You can get this value on your app registration's overview page. https://portal.azure.com/
-**MY_CLIENT_SECRET** => It's like an ecrypted password Q~nfpjRObkLeRjQsyD. You can get this value once when you create a new client secret on your app registration's page. https://portal.azure.com/
-
-Then your values will be kept in a **secrets.json** file
-
-```json
-{
-  "tenantId": "12345678-1234-1234-1234-1234567890ab",
-  "clientId": "12345678-1234-1234-1234-1234567890ab",
-  "clientSecret": "Q~nfhpjRgObkjLeRmjQTsryD"
-}
-```
-
-## Dependency Injection
-
-### Prerequisites
+## Prerequisites
 
 Before you can use dependency injection, you must install the following NuGet packages:
 
@@ -86,7 +29,7 @@ Before you can use dependency injection, you must install the following NuGet pa
 - [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection/) (currently, only version 2.x or later supported)
 
 
-### Creating Startup Class
+## Creating Startup Class
 
 You should create a startup class to configure all of your dependencies.
 
@@ -110,7 +53,7 @@ namespace MyNamespace
 }
 ```
 
-### Creating your Interfaces and Implementations
+## Creating your Interfaces and Implementations
 
 Now, you can create all new interfaces and their implementations.
 
@@ -148,7 +91,7 @@ namespace MyNamespace
 }
 ```
 
-### Using your classes by DI
+## Using your classes by DI
 
 Then you can use your injected object as usual.
 
@@ -197,10 +140,8 @@ namespace MyNamespace
 - **knownClientApplications** in manifest
 
 ## Sources
-[Dependency Injection in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection)
-[Build Azure Functions with Microsoft Graph](https://docs.microsoft.com/en-us/graph/tutorials/azure-functions)
-[App Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
-[Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+- [Dependency Injection in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection)
+- [Build Azure Functions with Microsoft Graph](https://docs.microsoft.com/en-us/graph/tutorials/azure-functions)
 
 ## Typos or suggestions?
 
