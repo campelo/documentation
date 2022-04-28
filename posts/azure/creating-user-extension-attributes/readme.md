@@ -6,6 +6,7 @@ tags: 'custom, attribute, extension, property'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 1070243
+date: '2022-04-28T21:10:20Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
