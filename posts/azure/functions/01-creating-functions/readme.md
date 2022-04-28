@@ -7,6 +7,7 @@ tags: 'azure, function, new, create'
 cover_image: ../../assets/cover.png
 canonical_url: null
 id: 1069881
+date: '2022-04-28T13:29:09Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
