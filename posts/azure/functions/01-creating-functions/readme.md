@@ -1,5 +1,5 @@
 ---
-title: Azure Functions - Reading users from microsoft graph
+title: Azure Functions - Creating a new function
 series: Azure Functions - Getting started
 published: true
 description: Creating new azure functions
@@ -31,7 +31,7 @@ It's recommended to install [Azure Tools](https://marketplace.visualstudio.com/i
 
 ![Image 1](./assets/img1.jpg)
 
-> @ icon-info-circle 
+> INFO 
 > You could install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash)
 
 ### Creating a local function
@@ -64,7 +64,7 @@ And search for *Azure Functions*
 
 Fill out all required information for your new function. For our example we'll use *HTTP trigger* and *Anonymous* authorization.
 
-> @icon-info-circle 
+> INFO
 > You can find more information about function triggers [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings) and information about Authorization [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=in-process%2Cfunctionsv2&pivots=programming-language-csharp#authorization-keys).
 
 ## Running the function
