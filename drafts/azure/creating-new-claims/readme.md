@@ -15,6 +15,10 @@ id:
 
 ---
 
+# Adding custom claims to token
+
+You can add custom claims to token. Here we'll show you how you can do it.
+
 ## First Method
 
 On **Token configuration**, add all optional claim you need.
@@ -166,6 +170,7 @@ New-AzureADApplicationKeyCredential -ObjectId {APPLICATION_OBJECT_ID} -CustomKey
 
 ## Source
 - [Customize claims](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-claims-mapping)
+- [Optional claims](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-optional-claims)
 
 ## Typos or suggestions?
 
