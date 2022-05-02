@@ -1,11 +1,11 @@
 ---
-title: 
-published: false
-description: 
-tags: ''
+title: Azure - Adding custom claims to token
+published: true
+description: Azure - Adding custom claims to token
+tags: 'extension, custom, claim, token'
 cover_image: ../../assets/cover.png
 canonical_url: null
-id: 
+id: 1073620
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
@@ -29,7 +29,7 @@ Set acceptMappedClaims to true in the application registration manifest in Azure
 
 ![Image 4](./assets/img4.png)
 
-Original claims
+**Original claims**
 
 ```json
 {
@@ -50,7 +50,7 @@ Original claims
 }
 ```
 
-With base attributes
+**With some basic attributes**
 
 ```json
 {
@@ -73,7 +73,9 @@ With base attributes
 }
 ```
 
-With extension attributes
+**Country** is a tenant information that is shown here.
+
+**With extension attributes**
 
 ```json
 {
@@ -98,9 +100,11 @@ With extension attributes
 }
 ```
 
+**extn.testString** is a new custom attribute that is now present among all retrieved information. 
+
 ## Second Method
 
-AzureAD and AzureADPreview Module don't work with PowerShell v7.x
+Because AzureAD and AzureADPreview Module don't work with *PowerShell v7.x*, you should use *powershell 5*.
 
 Verify your powershell version
 
@@ -125,6 +129,7 @@ $PSVersionTable
 ![Image 2](./assets/img2.png)
 
 > IMPORTANT
+> 
 > You have to use **AzureADPreview** because **AzureAD** doesn't have several commands.
 
 ```powershell
@@ -145,6 +150,7 @@ Remove-AzureADPolicy -Id {POLICY_ID}
 ```
 
 > IMPORTANT
+>
 > - For extension attributes, you have to use ExtensionID instead of ID
 > - ExtensionID values are case sensitives.
 
