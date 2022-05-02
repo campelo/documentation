@@ -3,7 +3,7 @@ title: Azure - Adding custom claims to token
 published: true
 description: Azure - Adding custom claims to token
 tags: 'extension, custom, claim, token'
-cover_image: ../../assets/cover.png
+cover_image: ./../assets/cover.png
 canonical_url: null
 id: 1073620
 date: '2022-05-02T18:55:41Z'
