@@ -17,7 +17,7 @@ id:
 
 # Adding custom claims to token
 
-You can add custom claims to token. Here we'll show you how you can do it.
+You can add custom claims to token. Here we'll show you how you can do that.
 
 ## First Method
 
