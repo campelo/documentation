@@ -1,11 +1,12 @@
 ---
-title: Retrieving, using and validating token from an IdentityServer
+title: 'Retrieving, using and validating token from an IdentityServer'
 published: true
-description: Retrieving, using and validating token from an IdentityServer
+description: 'Retrieving, using and validating token from an IdentityServer'
 tags: 'identiyServer, token, webApi, client'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 1186410
+date: '2022-09-06T20:16:32Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
