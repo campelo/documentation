@@ -2,7 +2,7 @@
 title: Retrieving, using and validating token from an IdentityServer
 published: true
 description: Retrieving, using and validating token from an IdentityServer
-tags: 'identiy-server, token, web-api, client'
+tags: 'identiyServer, token, webApi, client'
 cover_image: ../assets/cover.png
 canonical_url: null
 id: 1186410
