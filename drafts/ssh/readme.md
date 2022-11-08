@@ -48,6 +48,30 @@ Your .ssh folder will look like this:
 
 ![Image 1](./assets/img1.png)
 
+## Custom host names
+
+Image you have 3 different companies using azure as code reposiroty. So, you must be able to work with multiple accounts using ssh. For achieve this you should change your **config** file like this.
+
+```
+Host company1
+	HostName ssh.dev.azure.com
+	IdentityFile ~/.ssh/id_rsa_company1
+	User YourName
+Host company2
+	HostName ssh.dev.azure.com
+	IdentityFile ~/.ssh/id_rsa_company2
+	User YourName
+Host company3
+	HostName ssh.dev.azure.com
+	IdentityFile ~/.ssh/id_rsa_company3
+	User YourName
+```
+
+After that, you can connect by ssh like this:
+```sh
+git remote add origin ssh://user@company1/
+```
+
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
