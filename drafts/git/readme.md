@@ -16,6 +16,8 @@ id:
 ---
 
 ## Stash
+
+```bash
 git stash save "description"
 git stash list
 git stash apply 3 *3 represents the stash id*
@@ -24,6 +26,28 @@ git checkout -b newLocalBranchName
 git checkout --track origin/newLocalBranchName
 git merge origin/remoteBranchName
 git push origin localBranchName:newRemoteBranchName
+```
+
+```bash
+git archive --format=zip -o `<file-name>.zip` HEAD $(git diff-tree --no-commit-id --name-only --diff-filter=d -r HEAD)
+```
+
+**archive** compress files in a compressed folder
+**--format=zip** compressed file format
+**`<file-name>.zip`** compressed file name
+**HEAD** 
+
+**diff-tree** show commited files
+**--no-commit-id** doesn't show commit id
+**--name-only** shows only file names (not status)
+**--diff-filter=d** filter commit status. **D** includes DELETED **d** excludes DELETED. Other status (A)dded (M)odified (D)eleted
+**-r** recursive to show all files inside directories
+**HEAD**
+
+## Sources
+
+[git-archive](https://git-scm.com/docs/git-archive)
+[git-diff-tree](https://git-scm.com/docs/git-diff-tree)
 
 ## Typos or suggestions?
 
