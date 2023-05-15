@@ -44,9 +44,32 @@ git archive --format=zip -o `<file-name>.zip` HEAD $(git diff-tree --no-commit-i
 **-r** recursive to show all files inside directories
 **HEAD**
 
+## Revert commit
+
+For this scenario, we want to revert all commits after **B** commit
+
+Current:
+```
+A <- B <- C <- D <- E <- HEAD
+```
+
+Expected:
+```
+A <- B <- HEAD
+```
+
+So we can do that doing this.
+
+```bash
+git reset --hard abc123 # abc123 is B commit identifier...
+git reset --soft def456 # def456 is HEAD commit identifier...
+git commit -m "Comming back to abc123"
+```
+
 ## Sources
 
 [git-archive](https://git-scm.com/docs/git-archive)
+
 [git-diff-tree](https://git-scm.com/docs/git-diff-tree)
 
 ## Typos or suggestions?
