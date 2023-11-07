@@ -49,6 +49,7 @@ Commands - Manage data (Create, Update, Delete)
 Queries - Retrieve data (Get)
 Handlers - Handle a command or query.
 Notifications - Send notifications.
+Behaviors - Behavior of 
 
 ## Query
 
@@ -68,7 +69,13 @@ Create an AddProductHandler that implements IRequestHandler<AddProductCommand, P
 Create a new method on the repository EventOccured that has two parameters product and event (string)
 Create a new record ProductAddedNotification(Product product) that implements INotification. (Notifications folder)
 Create a new EmailHandler that implements INotificationHandler<ProductAddedNotification>. (Handlers folder)
+Create a new CacheInvalidationHandler that implements INotificationHandler<ProductAddedNotification>. (Handlers folder)
 
+## Behavior
+
+Create a new LoggingBehavior<TRequest, TResponse> class that implements IPipelineBehavior<TRequest, TResponse> where TRequest inherits from IRequest<TResponse> (Behaviors folder). In this implementation, we can add a logger before calling the next action. Get the response ```var response = await next();```. Then log something after the response. Finally, return the response.
+
+Add new middleware service AddSingleton(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>))
 
 ## Typos or suggestions?
 
