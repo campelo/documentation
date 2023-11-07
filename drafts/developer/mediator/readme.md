@@ -77,6 +77,9 @@ Create a new LoggingBehavior<TRequest, TResponse> class that implements IPipelin
 
 Add new middleware service AddSingleton(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>))
 
+## Source
+[CQRS mediator](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)
+
 ## Typos or suggestions?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. If you feel comfortable with github, instead of posting a comment, please go directly to https://github.com/campelo/documentation and open a new pull request with your changes.
