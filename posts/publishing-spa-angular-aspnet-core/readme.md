@@ -18,6 +18,14 @@ date: '2022-01-24T23:27:04Z'
 
 # Backend App (ASP.NET Core)
 
+## Enabling IIS features on windows
+
+If you don't have the IIS enabled yet, you can turn it on. Open control panel or run the command.
+```powershell
+appwiz.cpl
+```
+![Image 9](./assets/img9.png)
+
 ## Publishing on IIS
 
 You can use [this documentation](https://docs.microsoft.com/en-us/dotnet/core/deploying/) for publishing by command line or [this one](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish) to know more about **dotnet publish** command.
