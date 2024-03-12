@@ -24,7 +24,7 @@ If you don't have the IIS enabled yet, you can turn it on. Open control panel or
 ```powershell
 appwiz.cpl
 ```
-![Image 9](./assets/img9.png)
+![Image 11](./assets/img11.png)
 
 ## Publishing on IIS
 
