@@ -53,7 +53,16 @@ Be sure to host your app as a **sub-application** or a **new web application** b
 
 ### Enabling SSL to use HTTPS
 
-On IIS Manager you can use a certificate to enable IIS. Here's a sample of how to [create a certificate](https://enterprise.arcgis.com/en/web-adaptor/10.3/install/iis/enable-https-on-your-web-server-server-.htm).
+On IIS Manager you can use a certificate to enable IIS. Here's a command line sample to create a certificate or you can take a look [here](https://enterprise.arcgis.com/en/web-adaptor/10.3/install/iis/enable-https-on-your-web-server-server-.htm) to see another sample.
+
+```powershell
+New-SelfSignedCertificate -DnsName "localhost" -CertStoreLocation "cert:\LocalMachine\My" -FriendlyName "Test"
+```
+
+The certificate created by command line will be available in personal certificates of your local computer.
+```powershell
+certlm.msc
+```
 
 It's recommended to use a valid certificate from a trusted authority in production. Then you can select your application and a certificate as identified by the following image:
 
