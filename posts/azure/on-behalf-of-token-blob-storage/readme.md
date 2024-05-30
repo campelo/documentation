@@ -2,8 +2,8 @@
 title: Azure Storage - On-Behalf-Of token and audit log
 published: true
 description: Azure Storage - On-Behalf-Of token and audit log
-tags: 'onbehalfof, blob, storage, log, token'
-cover_image: ./../assets/cover.png
+tags: 'onbehalfof, blob, storage, token'
+cover_image: ../assets/cover.png
 canonical_url: null
 id: 1871408
 ---
