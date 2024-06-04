@@ -6,7 +6,8 @@ description: Create and reading messages on service bus
 tags: 'servicebus, queue, funcions, message'
 cover_image: ../../assets/cover.png
 canonical_url: null
-id: 
+id: 1876705
+date: '2024-06-04T13:29:09Z'
 ---
 
 ###### :postbox: Contact :brazil: :us: :fr:
