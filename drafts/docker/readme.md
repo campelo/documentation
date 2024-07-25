@@ -198,6 +198,9 @@ docker system prune -af
 
 ## image
 ```
+# list containers
+docker container ls
+
 # commit new changes (save current container status)
 docker commit {image-hash} {image-name}:{version-or-latest}
 
@@ -212,6 +215,9 @@ docker pull {container-registry}/{image-name}:{version-or-latest}
 
 # run image
 docker run -p {local-port}:{internal-port} --name my-container-name {image-name}
+
+# removing image
+docker image rm {container-registry}/{image-name}:{version-or-latest}
 ```
 
 ---
