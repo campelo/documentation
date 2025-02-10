@@ -44,7 +44,7 @@ git archive --format=zip -o `<file-name>.zip` HEAD $(git diff-tree --no-commit-i
 **-r** recursive to show all files inside directories
 **HEAD**
 
-## Revert commit
+## Removing all latest commits
 
 For this scenario, we want to revert all commits after **B** commit
 
@@ -64,6 +64,51 @@ So we can do that doing this.
 git reset --hard abc123 # abc123 is B commit identifier...
 git reset --soft def456 # def456 is HEAD commit identifier...
 git commit -m "Comming back to abc123"
+```
+
+## Rollback some commits
+
+You can use rebase for this purpose. Suposing that I want to remove B and D
+
+Current:
+```
+A <- B <- C <- D <- E <- HEAD
+```
+
+Expected:
+```
+A <- C <- E <- HEAD
+```
+
+So we can do that doing this.
+
+Rebase in interactive mode:
+```bash
+git rebase -i abc123 # abc123 is A commit identifier...
+```
+
+```bash
+pick <hash_E> E
+pick <hash_D> D
+pick <hash_C> C
+pick <hash_B> B
+```
+Replace **pick** to **drop** for commits you don't want.
+
+```bash
+pick <hash_E> E
+drop <hash_D> D
+pick <hash_C> C
+drop <hash_B> B
+```
+
+The new git line should be:
+```bash
+git log --oneline
+
+pick <hash_E> E
+pick <hash_C> C
+pick <hash_A> A
 ```
 
 ## Sources
