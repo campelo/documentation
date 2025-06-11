@@ -33,7 +33,7 @@ Host gitlab.com
 Host github.com
 	HostName github.com
 	IdentityFile ~/.ssh/id_rsa_github
-	User naYourNameme
+	User YourName
 Host gist.github.com
 	HostName gist.github.com
 	IdentityFile ~/.ssh/id_rsa_github
