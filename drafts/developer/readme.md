@@ -15,6 +15,36 @@ id:
 
 ---
 
+## Find out what language was used to compile a program
+
+Check for .NET with ```strings``` or ```readelf```:
+
+Look for *mscorlib.dll*, *CLR*, or *.NET* in strings.
+Use *monodis* or *ILSpy* if confirmed. 
+
+For Java, check for *jar* or *class* patterns:
+
+Run file or strings to find *META-INF*, *java.lang*.
+
+Use strings your_program to reveal:
+
+GCC → likely C/C++
+PyInstaller → Python
+Go build → Go
+rust or Cargo → Rust 
+
+Inspect imports with *ldd* (Linux) or check for runtime libraries. 
+
+```bash
+strings your_program
+
+readelf -a your_program
+
+file your_program
+
+ldd your_program
+```
+
 ## Start multiple projects in Visual Studio
 - Select the project as startup projet
 - Change from IIS Express to Console (project's name)
